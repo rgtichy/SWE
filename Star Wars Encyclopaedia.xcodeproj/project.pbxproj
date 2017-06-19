@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03851E01EF760EA0044648B /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03851DF1EF760EA0044648B /* MainTabViewController.swift */; };
+		A03851E21EF764700044648B /* SWFilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03851E11EF764700044648B /* SWFilmViewController.swift */; };
+		A03851E41EF76F090044648B /* filmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03851E31EF76F090044648B /* filmCell.swift */; };
 		A07BDFE71ECC9EE400B2E756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BDFE61ECC9EE400B2E756 /* AppDelegate.swift */; };
-		A07BDFE91ECC9EE400B2E756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BDFE81ECC9EE400B2E756 /* ViewController.swift */; };
+		A07BDFE91ECC9EE400B2E756 /* SWPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BDFE81ECC9EE400B2E756 /* SWPersonViewController.swift */; };
 		A07BDFEC1ECC9EE400B2E756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07BDFEA1ECC9EE400B2E756 /* Main.storyboard */; };
 		A07BDFEF1ECC9EE400B2E756 /* Star_Wars_Encyclopaedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A07BDFED1ECC9EE400B2E756 /* Star_Wars_Encyclopaedia.xcdatamodeld */; };
 		A07BDFF11ECC9EE400B2E756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07BDFF01ECC9EE400B2E756 /* Assets.xcassets */; };
 		A07BDFF41ECC9EE400B2E756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07BDFF21ECC9EE400B2E756 /* LaunchScreen.storyboard */; };
+		A07BDFFC1ECCD45800B2E756 /* personCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BDFFB1ECCD45800B2E756 /* personCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03851DF1EF760EA0044648B /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		A03851E11EF764700044648B /* SWFilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWFilmViewController.swift; sourceTree = "<group>"; };
+		A03851E31EF76F090044648B /* filmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filmCell.swift; sourceTree = "<group>"; };
 		A07BDFE31ECC9EE400B2E756 /* Star Wars Encyclopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Encyclopaedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07BDFE61ECC9EE400B2E756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A07BDFE81ECC9EE400B2E756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A07BDFE81ECC9EE400B2E756 /* SWPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPersonViewController.swift; sourceTree = "<group>"; };
 		A07BDFEB1ECC9EE400B2E756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A07BDFEE1ECC9EE400B2E756 /* Star_Wars_Encyclopaedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Wars_Encyclopaedia.xcdatamodel; sourceTree = "<group>"; };
 		A07BDFF01ECC9EE400B2E756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A07BDFF31ECC9EE400B2E756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A07BDFF51ECC9EE400B2E756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07BDFFB1ECCD45800B2E756 /* personCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				A07BDFE61ECC9EE400B2E756 /* AppDelegate.swift */,
-				A07BDFE81ECC9EE400B2E756 /* ViewController.swift */,
+				A07BDFE81ECC9EE400B2E756 /* SWPersonViewController.swift */,
 				A07BDFEA1ECC9EE400B2E756 /* Main.storyboard */,
+				A03851E11EF764700044648B /* SWFilmViewController.swift */,
+				A03851DF1EF760EA0044648B /* MainTabViewController.swift */,
 				A07BDFF01ECC9EE400B2E756 /* Assets.xcassets */,
 				A07BDFF21ECC9EE400B2E756 /* LaunchScreen.storyboard */,
 				A07BDFF51ECC9EE400B2E756 /* Info.plist */,
 				A07BDFED1ECC9EE400B2E756 /* Star_Wars_Encyclopaedia.xcdatamodeld */,
+				A07BDFFB1ECCD45800B2E756 /* personCell.swift */,
+				A03851E31EF76F090044648B /* filmCell.swift */,
 			);
 			path = "Star Wars Encyclopaedia";
 			sourceTree = "<group>";
@@ -140,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03851E01EF760EA0044648B /* MainTabViewController.swift in Sources */,
+				A03851E41EF76F090044648B /* filmCell.swift in Sources */,
 				A07BDFEF1ECC9EE400B2E756 /* Star_Wars_Encyclopaedia.xcdatamodeld in Sources */,
-				A07BDFE91ECC9EE400B2E756 /* ViewController.swift in Sources */,
+				A07BDFE91ECC9EE400B2E756 /* SWPersonViewController.swift in Sources */,
+				A07BDFFC1ECCD45800B2E756 /* personCell.swift in Sources */,
+				A03851E21EF764700044648B /* SWFilmViewController.swift in Sources */,
 				A07BDFE71ECC9EE400B2E756 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +322,7 @@
 				A07BDFFA1ECC9EE400B2E756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
